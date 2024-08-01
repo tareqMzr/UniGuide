@@ -1,0 +1,51 @@
+.loginContainer-Style{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    height: 854px;
+}
+.loginForm-Style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subLoginForm-Style{
+    width: 50%;
+    height: 80%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.submitionFrom-Style{
+    display: flex;
+    flex-direction: column;
+}
+.submitionFrom-Style input{
+    border: 1px solid gray;
+    height: 40px;
+    border-radius: 13px ;
+}
+
+.btnsubmitFrom-Style{
+    background-color: #E5B300;
+    color: white;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btnsubmitFrom-Style:hover{
+    background-color: #36384E;
+}
+
+.loginImgContainer-Style{
+    width: 100%;
+}
+.loginImage-Style{
+    width: 100%;
+    border-radius: 20px 0px 0px 20px ;
+    height: 100%;
+}
+
+.display{
+    color: red;
+}
+.hidden{
+    display: none;
+}

@@ -1,0 +1,113 @@
+
+.container{
+    width: 90%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    row-gap: 20px;
+}
+.mainimg-Style{
+    width: 90%;
+    max-height: 700px;
+    filter: brightness(0.6);
+}
+.subimg-Style{
+    width: auto;
+    max-height: 400px;
+    filter: brightness(0.6);
+
+}
+.bodytitle-Style{
+    position: absolute;
+    font-size: 62px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.bodysubtitle-Style{
+    position: absolute;
+    font-size: 42px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top:55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+.future-Style{
+    background-color: #E5B300;
+    color: white;
+    border: 0px solid;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+.articel-Style{
+    width: 70%;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.8;
+}
+.button-Style{
+    background-color: #E5B300;
+    border: 0px solid;
+    color: white;
+    padding: 10px 20px;
+}
+.button-Style:hover{
+    background-color:#36384E ;
+    color: white;
+}
+button.signup-Style{
+    padding: 20px 40px;
+    font-size: 18px;
+}
+.gridcontainer{
+    margin: 0px;
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    width: 50%;
+    max-height: 400px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+.gridcontainer img{
+    width: 400px;
+    height: 300px;
+}
+.styled-line{
+    border: none; /* Removes the default border */
+    width: 100%;
+    height: 2px; /* Thickness of the line */
+    background-color: #E5B300; /* Color of the line */
+    margin: 20px 0; /* Space above and below the line */
+}
+.question-Style{
+    color: #E5B300;
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.link-Style{
+    border: 0px solid white;
+    color: #E5B300;
+    background-color: white;
+    font-size: 16px;
+}
+.question-Style:hover{
+    color: #443500;
+}
+.link-Style:hover{
+    color: #443500;
+}
